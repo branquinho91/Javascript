@@ -1,6 +1,11 @@
-const names = require('./4-names')
-const sayHi = require('./5-utils')
+const os = require("os");
+console.log(`The system is up for ${os.uptime() / 60} minutes`);
 
-sayHi('susan')
-sayHi(names.john)
-sayHi(names.peter)
+const currentOS = {
+  name: os.type(),
+  release: os.release(),
+  totalMem: os.totalmem(),
+  freeMem: os.freemem(),
+};
+
+console.log(currentOS);
