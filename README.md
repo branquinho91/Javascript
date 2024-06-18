@@ -1,3 +1,8 @@
 # Front
 
-Javascript projects
+Javascript projects from various online courses
+
+- freeCodeCamp
+- CodeCademy
+- Hyperskill
+- Etc
